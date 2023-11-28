@@ -1,0 +1,26 @@
+Bill of Materials,,,,,
+Xmas Tree LEDs,,,,,
+by Jack Christensen,,,,,
+Nov-2023,,,,,
+https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e903af6094,,,,,
+,,,,,
+Part,Qty,Mouser #,Description,Mfr. #,Manufacturer
+B1,1,534-2489,"Cylindrical Battery Contacts, Clips, Holders & Springs 2 AAA cell holder Densi-Pak",2489,Keystone Electronics
+C1,1,187-CL21A475KPFNNNE,Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF+/-10% 10V X5R 0805,CL21A475KPFNNNE,Samsung Electro-Mechanics
+C2,1,187-CL21A106KPCLQNC,Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 10V X5R 2 0805,CL21A106KPCLQNC,Samsung Electro-Mechanics
+C3,1,581-08053C104KAT4A,Multilayer Ceramic Capacitors MLCC – SMD/SMT 25V 0.1uF X7R 0805 10%,08053C104KAT4A,KYOCERA AVX
+D1-D4,4,941-C513AWSNCX0Z0342,Standard LEDs - Through Hole White,C513A-WSN-CX0Z0342,Cree LED
+D5,1,859-LTST-C171YKT,Standard LEDs - SMD Yellow Clear 588nm,LTST-C171YKT,Lite-On
+JP1,1,474-PRT-12807,"Header - 2x3 (Male, 0.1"")",PRT-12807,SparkFun Electronics
+JP2,0,Board footprint only,Solder pads,n/a,n/a
+L1,1,963-CBC3225T4R7MR,Power Inductors - SMD 1210 4.7uH 130mOhms +/-20% 1010mA HiCur,CBC3225T4R7MR,TAIYO YUDEN
+Q1-Q2,2,863-MUN5235DW1T1G,Bipolar Transistors - Pre-Biased 100mA 50V BRT Dual NPN,MUN5235DW1T1G,onsemi
+R1-R4,4,660-RK73H2ATTD62R0F,Thick Film Resistors - SMD 1/4W 62 OHM 1%,RK73H2ATTD62R0F,KOA Speer
+R5,1,660-RK73H1JTTDD1002F,Thick Film Resistors - SMD 1/10watts 10Kohms 1%,RK73H1JTTDD1002F,KOA Speer
+R6,1,660-RK73H1ETTP9763F,Thick Film Resistors - SMD 0.1watt 976Kohms 1%,RK73H1ETTP9763F,KOA Speer
+R7,1,660-RK73H2ATTD5623F,Thick Film Resistors - SMD 1/4W 562K OHM 1%,RK73H2ATTD5623F,KOA Speer
+R8,1,660-RK73H1JTTDD1001F,Thick Film Resistors - SMD 1/8watts 1Kohms 1%,RK73H1JTTDD1001F,KOA Speer
+S1,1,611-JS102011CQN,Slide Switches Sub-Miniature Slide Switch,JS102011CQN,C&K Switches
+S2,1,653-B3F-1020,Tactile Switches 6X6 Flat 5mm Btn Force 100g w/o Grd,B3F-1020,Omron
+U1,1,579-MCP1640CT-I/CHY,Switching Voltage Regulators 500 kHz 300 mA Syn Boost Converter,MCP1640CT-I/CHY,Microchip
+U2,1,556-ATTINY84A-SSU,8-bit Microcontrollers - MCU 20MHz Ind. Grade,ATTINY84A-SSU,Microchip
