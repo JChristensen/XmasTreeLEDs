@@ -1,0 +1,34 @@
+Partlist
+
+Exported from XmasTree.brd at 11/28/23 8:48 AM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package        Library  Position (mm)         Orientation
+
+C1       4.7uF          M0805          _jc      (8.06 10.19)          R0
+C2       10uF           M0805          _jc      (8.32 16.81)          R180
+C3       100nF          M0805          _jc      (4.19 26.48)          R270
+D1       5mm            LED5MM         _jc      (20 14)               R180
+D2       5mm            LED5MM         _jc      (26 20)               R270
+D3       5mm            LED5MM         _jc      (20 26)               R0
+D4       5mm            LED5MM         _jc      (14 20)               R90
+D5       LTST-C171YKT   D0805          _jc      (18.5 37)             R0
+JP1      ICSP           2X3_LOCK       _jc      (33.29 35.4)          R180
+JP2      3VDC           1X02_LONGPADS  SparkFun (34.73 23.83)         R90
+L1       4.7uH          C1210K         _jc      (8.13 7.07)           R0
+Q1       MUN5235DW1T1G  SOT363_PHILIPS _jc      (20 20)               R270
+Q2       MUN5235DW1T1G  SOT363_PHILIPS _jc      (20.07 31.08)         R270
+R1       62             M0805          _jc      (15.61 14.04)         R90
+R2       62             M0805          _jc      (26.14 15.61)         R180
+R3       62             M0805          _jc      (24.41 25.98)         R90
+R4       62             M0805          _jc      (14 24.39)            R0
+R5       10K            M0805          _jc      (8.38 27.31)          R180
+R6       976K           M0805          _jc      (3.81 13.54)          R90
+R7       562K           M0805          _jc      (3.81 17.96)          R90
+R8       1K             M0805          _jc      (23 37)               R0
+S1       Power          JS102011CQN    SparkFun (20 2.8)              R0
+U1       MCP1640C       SOT23-6        _jc      (7.96 13.45)          R90
+U2       ATtiny84A-SSU  SO14           _jc      (10.18 33.37)         R0
