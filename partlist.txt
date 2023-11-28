@@ -1,6 +1,6 @@
 Partlist
 
-Exported from XmasTree.brd at 11/28/23 8:48 AM
+Exported from XmasTree.brd at 11/28/23 10:03 AM
 
 EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
 
@@ -30,5 +30,6 @@ R6       976K           M0805          _jc      (3.81 13.54)          R90
 R7       562K           M0805          _jc      (3.81 17.96)          R90
 R8       1K             M0805          _jc      (23 37)               R0
 S1       Power          JS102011CQN    SparkFun (20 2.8)              R0
+S2       SELECT         B3F-10XXOCT    _jc      (35 17.5)             R90
 U1       MCP1640C       SOT23-6        _jc      (7.96 13.45)          R90
 U2       ATtiny84A-SSU  SO14           _jc      (10.18 33.37)         R0
