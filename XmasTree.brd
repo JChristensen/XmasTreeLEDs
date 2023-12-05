@@ -3940,19 +3940,19 @@ jc mods for clearance, distance, sizes, supply, masks</description>
 <attribute name="NAME" x="19.52" y="32.42" size="0.8128" layer="25" ratio="16"/>
 <attribute name="VALUE" x="17.37" y="32.18" size="0.8128" layer="27" ratio="16" rot="R270"/>
 </element>
-<element name="R1" library="_jc" package="M0805" value="62" x="15.61" y="14.04" smashed="yes" rot="R90">
+<element name="R1" library="_jc" package="M0805" value="15" x="15.61" y="14.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.11" y="12.54" size="0.8128" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="18.11" y="12.54" size="0.8128" layer="27" ratio="16" rot="R90"/>
 </element>
-<element name="R2" library="_jc" package="M0805" value="62" x="26.14" y="15.61" smashed="yes" rot="R180">
+<element name="R2" library="_jc" package="M0805" value="15" x="26.14" y="15.61" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.64" y="14.11" size="0.8128" layer="25" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="27.64" y="18.11" size="0.8128" layer="27" ratio="16" rot="R180"/>
 </element>
-<element name="R3" library="_jc" package="M0805" value="62" x="24.41" y="25.98" smashed="yes" rot="R90">
+<element name="R3" library="_jc" package="M0805" value="15" x="24.41" y="25.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.98" y="28.29" size="0.8128" layer="25" ratio="16"/>
 <attribute name="VALUE" x="26.91" y="24.48" size="0.8128" layer="27" ratio="16" rot="R90"/>
 </element>
-<element name="R4" library="_jc" package="M0805" value="62" x="14" y="24.39" smashed="yes">
+<element name="R4" library="_jc" package="M0805" value="15" x="14" y="24.39" smashed="yes">
 <attribute name="NAME" x="12.5" y="25.89" size="0.8128" layer="25" ratio="16"/>
 <attribute name="VALUE" x="12.5" y="21.89" size="0.8128" layer="27" ratio="16"/>
 </element>

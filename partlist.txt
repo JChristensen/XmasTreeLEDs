@@ -1,35 +1,35 @@
 Partlist
 
-Exported from XmasTree.brd at 11/28/23 10:03 AM
+Exported from XmasTree.sch at 12/5/23 6:12 PM
 
 EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
 
 Assembly variant: 
 
-Part     Value          Package        Library  Position (mm)         Orientation
+Part     Value          Device                Package        Library  Sheet
 
-C1       4.7uF          M0805          _jc      (8.06 10.19)          R0
-C2       10uF           M0805          _jc      (8.32 16.81)          R180
-C3       100nF          M0805          _jc      (4.19 26.48)          R270
-D1       5mm            LED5MM         _jc      (20 14)               R180
-D2       5mm            LED5MM         _jc      (26 20)               R270
-D3       5mm            LED5MM         _jc      (20 26)               R0
-D4       5mm            LED5MM         _jc      (14 20)               R90
-D5       LTST-C171YKT   D0805          _jc      (18.5 37)             R0
-JP1      ICSP           2X3_LOCK       _jc      (33.29 35.4)          R180
-JP2      3VDC           1X02_LONGPADS  SparkFun (34.73 23.83)         R90
-L1       4.7uH          C1210K         _jc      (8.13 7.07)           R0
-Q1       MUN5235DW1T1G  SOT363_PHILIPS _jc      (20 20)               R270
-Q2       MUN5235DW1T1G  SOT363_PHILIPS _jc      (20.07 31.08)         R270
-R1       62             M0805          _jc      (15.61 14.04)         R90
-R2       62             M0805          _jc      (26.14 15.61)         R180
-R3       62             M0805          _jc      (24.41 25.98)         R90
-R4       62             M0805          _jc      (14 24.39)            R0
-R5       10K            M0805          _jc      (8.38 27.31)          R180
-R6       976K           M0805          _jc      (3.81 13.54)          R90
-R7       562K           M0805          _jc      (3.81 17.96)          R90
-R8       1K             M0805          _jc      (23 37)               R0
-S1       Power          JS102011CQN    SparkFun (20 2.8)              R0
-S2       SELECT         B3F-10XXOCT    _jc      (35 17.5)             R90
-U1       MCP1640C       SOT23-6        _jc      (7.96 13.45)          R90
-U2       ATtiny84A-SSU  SO14           _jc      (10.18 33.37)         R0
+C1       4.7uF          C-USM0805             M0805          _jc      1
+C2       10uF           C-USM0805             M0805          _jc      1
+C3       100nF          C-USM0805             M0805          _jc      1
+D1       5mm            LED5MM                LED5MM         _jc      1
+D2       5mm            LED5MM                LED5MM         _jc      1
+D3       5mm            LED5MM                LED5MM         _jc      1
+D4       5mm            LED5MM                LED5MM         _jc      1
+D5       LTST-C171YKT   LEDD0805              D0805          _jc      1
+JP1      ICSP           AVR_SPI_PRG_62X3_LOCK 2X3_LOCK       _jc      1
+JP2      3VDC           M02                   1X02_LONGPADS  SparkFun 1
+L1       4.7uH          INDUCTORC1210K        C1210K         _jc      1
+Q1       MUN5235DW1T1G  MUN52XXSOT363         SOT363_PHILIPS _jc      1
+Q2       MUN5235DW1T1G  MUN52XXSOT363         SOT363_PHILIPS _jc      1
+R1       15             R-US_M0805            M0805          _jc      1
+R2       15             R-US_M0805            M0805          _jc      1
+R3       15             R-US_M0805            M0805          _jc      1
+R4       15             R-US_M0805            M0805          _jc      1
+R5       10K            R-US_M0805            M0805          _jc      1
+R6       976K           R-US_M0805            M0805          _jc      1
+R7       562K           R-US_M0805            M0805          _jc      1
+R8       1K             R-US_M0805            M0805          _jc      1
+S1       Power          SWITCH-SPST           JS102011CQN    SparkFun 1
+S2       SELECT         10-XXOCT              B3F-10XXOCT    _jc      1
+U1       MCP1640C       MCP1640               SOT23-6        _jc      1
+U2       ATtiny84A-SSU  ATTINYX4SO14          SO14           _jc      1

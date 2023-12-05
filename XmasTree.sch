@@ -33769,12 +33769,12 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="Q1" library="_jc" deviceset="MUN52XX" device="SOT363" value="MUN5235DW1T1G"/>
 <part name="Q2" library="_jc" deviceset="MUN52XX" device="SOT363" value="MUN5235DW1T1G"/>
 <part name="D1" library="_jc" deviceset="LED" device="5MM" value="5mm"/>
-<part name="R2" library="_jc" deviceset="R-US_" device="M0805" value="62"/>
+<part name="R2" library="_jc" deviceset="R-US_" device="M0805" value="15"/>
 <part name="D2" library="_jc" deviceset="LED" device="5MM" value="5mm"/>
-<part name="R1" library="_jc" deviceset="R-US_" device="M0805" value="62"/>
+<part name="R1" library="_jc" deviceset="R-US_" device="M0805" value="15"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="_jc" deviceset="R-US_" device="M0805" value="62"/>
-<part name="R4" library="_jc" deviceset="R-US_" device="M0805" value="62"/>
+<part name="R3" library="_jc" deviceset="R-US_" device="M0805" value="15"/>
+<part name="R4" library="_jc" deviceset="R-US_" device="M0805" value="15"/>
 <part name="D3" library="_jc" deviceset="LED" device="5MM" value="5mm"/>
 <part name="D4" library="_jc" deviceset="LED" device="5MM" value="5mm"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
