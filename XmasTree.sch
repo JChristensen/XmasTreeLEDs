@@ -7166,9 +7166,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="0" y1="0.75" x2="-1.75" y2="0.75" width="0.127" layer="21"/>
 <wire x1="-1.75" y1="0.75" x2="-1.75" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="0" y1="0.75" x2="0" y2="-0.75" width="0.127" layer="21"/>
-<pad name="P$1" x="-2.5" y="-1.6" drill="0.8" shape="octagon"/>
-<pad name="P$2" x="0" y="1.6" drill="0.8" shape="octagon"/>
-<pad name="P$3" x="2.5" y="-1.6" drill="0.8" shape="octagon"/>
+<pad name="P$1" x="-2.5" y="-1.6" drill="0.8" diameter="1.4224" shape="octagon"/>
+<pad name="P$2" x="0" y="1.6" drill="0.8" diameter="1.4224" shape="octagon"/>
+<pad name="P$3" x="2.5" y="-1.6" drill="0.8" diameter="1.4224" shape="octagon"/>
 <text x="-2" y="2.5" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2" y="-3.5" size="0.8128" layer="27" ratio="16">&gt;VALUE</text>
 </package>
@@ -33806,7 +33806,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="15.24" y="10.16" size="2.54" layer="94" ratio="10">Christmas Tree LEDs by Jack Christensen is licensed
 under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/                       </text>
 <text x="15.24" y="20.32" size="3.81" layer="94" ratio="12">CC BY-SA</text>
-<text x="261.62" y="7.62" size="2.54" layer="94" ratio="12">v1.0</text>
+<text x="261.62" y="7.62" size="2.54" layer="94" ratio="12">v1.1</text>
 <text x="190.5" y="7.62" size="2.54" layer="94" ratio="12">MIL-TFD-41</text>
 </plain>
 <instances>

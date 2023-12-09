@@ -150,20 +150,20 @@
 <wire x1="40" y1="28" x2="28" y2="40" width="0" layer="20" curve="90"/>
 <wire x1="28" y1="40" x2="12" y2="40" width="0" layer="20"/>
 <wire x1="12" y1="40" x2="0" y2="28" width="0" layer="20" curve="90"/>
-<hole x="28" y="25" drill="2.5"/>
-<circle x="28" y="25" radius="1.5" width="0" layer="41"/>
-<circle x="28" y="25" radius="1.5" width="0" layer="42"/>
+<hole x="28" y="25" drill="3"/>
+<circle x="28" y="25" radius="1.75" width="0" layer="41"/>
+<circle x="28" y="25" radius="1.75" width="0" layer="42"/>
 <text x="38.5" y="25" size="1.016" layer="21" ratio="16" rot="R90" align="bottom-center">+3VDC-</text>
 <text x="31" y="30" size="1.016" layer="21" ratio="16" align="bottom-center">ICSP</text>
 <text x="12" y="1.5" size="2.1844" layer="21" ratio="16" align="bottom-center">OFF</text>
 <text x="27.5" y="1.5" size="2.1844" layer="21" ratio="16" align="bottom-center">ON</text>
 <text x="33.5" y="6" size="1.016" layer="21" ratio="16" align="bottom-center">open source</text>
-<text x="20" y="6" size="1.016" layer="21" ratio="16" align="bottom-center">Xmas Tree LEDs v1.0
-CC BY-SA 4.0 jc 1123
+<text x="20" y="6" size="1.016" layer="21" ratio="16" align="bottom-center">Xmas Tree LEDs v1.1
+CC BY-SA 4.0 jc 1223
 bit.ly/xtleds</text>
 <text x="33.5" y="6" size="1.016" layer="22" ratio="16" rot="MR0" align="bottom-center">open source</text>
-<text x="20" y="6" size="1.016" layer="22" ratio="16" rot="MR0" align="bottom-center">Xmas Tree LEDs v1.0
-CC BY-SA 4.0 jc 1123
+<text x="20" y="6" size="1.016" layer="22" ratio="16" rot="MR0" align="bottom-center">Xmas Tree LEDs v1.1
+CC BY-SA 4.0 jc 1223
 bit.ly/xtleds</text>
 </plain>
 <libraries>
@@ -407,9 +407,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="0" y1="0.75" x2="-1.75" y2="0.75" width="0.127" layer="21"/>
 <wire x1="-1.75" y1="0.75" x2="-1.75" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="0" y1="0.75" x2="0" y2="-0.75" width="0.127" layer="21"/>
-<pad name="P$1" x="-2.5" y="-1.6" drill="0.8" shape="octagon"/>
-<pad name="P$2" x="0" y="1.6" drill="0.8" shape="octagon"/>
-<pad name="P$3" x="2.5" y="-1.6" drill="0.8" shape="octagon"/>
+<pad name="P$1" x="-2.5" y="-1.6" drill="0.8" diameter="1.4224" shape="octagon"/>
+<pad name="P$2" x="0" y="1.6" drill="0.8" diameter="1.4224" shape="octagon"/>
+<pad name="P$3" x="2.5" y="-1.6" drill="0.8" diameter="1.4224" shape="octagon"/>
 <text x="-2" y="2.5" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2" y="-3.5" size="0.8128" layer="27" ratio="16">&gt;VALUE</text>
 </package>
@@ -4003,13 +4003,14 @@ jc mods for clearance, distance, sizes, supply, masks</description>
 <wire x1="7" y1="10.8" x2="6.6" y2="10.4" width="0.3048" layer="1"/>
 <wire x1="6.6" y1="10.4" x2="6.81" y2="10.19" width="0.3048" layer="1"/>
 <wire x1="6.81" y1="10.19" x2="7.11" y2="10.19" width="0.3048" layer="1"/>
-<wire x1="6.63" y1="7.07" x2="6.63" y2="4.97" width="0.508" layer="1"/>
-<wire x1="6.63" y1="4.97" x2="7.2" y2="4.4" width="0.508" layer="1"/>
+<wire x1="6.63" y1="4.97" x2="6.63" y2="7.07" width="0.508" layer="1"/>
 <contactref element="S1" pad="P$2"/>
-<wire x1="20" y1="4.4" x2="7.2" y2="4.4" width="0.508" layer="1"/>
 <wire x1="7.11" y1="10.19" x2="7" y2="10.08" width="0.3048" layer="1"/>
 <wire x1="7" y1="7.44" x2="6.63" y2="7.07" width="0.3048" layer="1"/>
 <wire x1="7" y1="10.08" x2="7" y2="7.44" width="0.3048" layer="1"/>
+<wire x1="20" y1="4.4" x2="19.1" y2="3.5" width="0.508" layer="1"/>
+<wire x1="19.1" y1="3.5" x2="8.1" y2="3.5" width="0.508" layer="1"/>
+<wire x1="8.1" y1="3.5" x2="6.63" y2="4.97" width="0.508" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="Q1" pad="4"/>
@@ -4151,12 +4152,14 @@ jc mods for clearance, distance, sizes, supply, masks</description>
 <wire x1="25.5" y1="31" x2="28.636" y2="31" width="0.254" layer="16"/>
 <wire x1="28.636" y1="31" x2="30.75" y2="33.114" width="0.254" layer="16"/>
 <wire x1="24.5" y1="32" x2="23.7" y2="32.8" width="0.254" layer="1"/>
-<wire x1="18.97" y1="31.08" x2="18" y2="31.08" width="0.254" layer="1"/>
-<wire x1="18" y1="31.08" x2="13.99" y2="31.08" width="0.254" layer="1"/>
-<wire x1="13.99" y1="31.08" x2="13.99" y2="30.77" width="0.254" layer="1"/>
-<wire x1="23.7" y1="32.8" x2="18.3" y2="32.8" width="0.254" layer="1"/>
-<wire x1="18.3" y1="32.8" x2="18" y2="32.5" width="0.254" layer="1"/>
-<wire x1="18" y1="32.5" x2="18" y2="31.08" width="0.254" layer="1"/>
+<wire x1="13.99" y1="32.49" x2="13.99" y2="30.77" width="0.254" layer="1"/>
+<wire x1="23.7" y1="32.8" x2="17.5" y2="32.8" width="0.254" layer="1"/>
+<wire x1="17.5" y1="32.8" x2="14.3" y2="32.8" width="0.254" layer="1"/>
+<wire x1="14.3" y1="32.8" x2="13.99" y2="32.49" width="0.254" layer="1"/>
+<wire x1="18.97" y1="31.08" x2="18.89" y2="31" width="0.254" layer="1"/>
+<wire x1="18.89" y1="31" x2="18" y2="31" width="0.254" layer="1"/>
+<wire x1="18" y1="31" x2="17.5" y2="31.5" width="0.254" layer="1"/>
+<wire x1="17.5" y1="31.5" x2="17.5" y2="32.8" width="0.254" layer="1"/>
 </signal>
 <signal name="PB2">
 <contactref element="U2" pad="5"/>
@@ -4290,9 +4293,10 @@ jc mods for clearance, distance, sizes, supply, masks</description>
 <wire x1="32.7394" y1="20.7512" x2="32.7394" y2="14.2488" width="0.254" layer="16"/>
 <wire x1="15" y1="28.5" x2="15" y2="27.5" width="0.254" layer="16"/>
 <wire x1="15" y1="27.5" x2="19.5" y2="23" width="0.254" layer="16"/>
-<wire x1="30.4906" y1="23" x2="32.7394" y2="20.7512" width="0.254" layer="16"/>
 <wire x1="9.5" y1="34" x2="15" y2="28.5" width="0.254" layer="16"/>
-<wire x1="19.5" y1="23" x2="30.4906" y2="23" width="0.254" layer="16"/>
+<wire x1="26.5" y1="23" x2="19.5" y2="23" width="0.254" layer="16"/>
+<wire x1="32.7394" y1="20.7512" x2="28.7488" y2="20.7512" width="0.254" layer="16"/>
+<wire x1="28.7488" y1="20.7512" x2="26.5" y2="23" width="0.254" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

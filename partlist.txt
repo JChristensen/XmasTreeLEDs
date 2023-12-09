@@ -1,6 +1,6 @@
 Partlist
 
-Exported from XmasTree.sch at 12/5/23 6:12 PM
+Exported from XmasTree.sch at 12/9/23 4:06 PM
 
 EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
 
@@ -8,6 +8,7 @@ Assembly variant:
 
 Part     Value          Device                Package        Library  Sheet
 
+B1       2xAAA          Keystone 2489         n/a            n/a      1
 C1       4.7uF          C-USM0805             M0805          _jc      1
 C2       10uF           C-USM0805             M0805          _jc      1
 C3       100nF          C-USM0805             M0805          _jc      1
