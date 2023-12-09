@@ -15,9 +15,9 @@ See the [firmware here](https://github.com/JChristensen/XmasTree).
 PC boards can be ordered from [OSH Park](https://oshpark.com/shared_projects/T9Cb02lh).  
 A bill of materials is available at [Mouser Electronics](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e903af6094) and also in this repo.  
 
-![](https://raw.githubusercontent.com/JChristensen/XmasTreeLEDs/master/extras/video1.m4v)
+![](https://raw.githubusercontent.com/JChristensen/XmasTreeLEDs/master/extras/video1.mov)
 
-![](https://raw.githubusercontent.com/JChristensen/XmasTreeLEDs/master/extras/video2.m4v)
+![](https://raw.githubusercontent.com/JChristensen/XmasTreeLEDs/master/extras/video2.mov)
 
 ![](https://raw.githubusercontent.com/JChristensen/XmasTreeLEDs/master/extras/tree1.jpg)
 
