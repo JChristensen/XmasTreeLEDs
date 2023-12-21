@@ -3932,11 +3932,11 @@ jc mods for clearance, distance, sizes, supply, masks</description>
 </element>
 <element name="LOGO1" library="ohw-logo" package="OSHW_8X150_NOTEXT" value="OSHW_LOGO_8MILX0150-NT" x="31.44" y="7.5" smashed="yes"/>
 <element name="LOGO2" library="ohw-logo" package="OSHW_8X150_NOTEXT" value="OSHW_LOGO_8MILX0150-NT" x="35.86" y="7.5" smashed="yes" rot="MR0"/>
-<element name="Q1" library="_jc" package="SOT363_PHILIPS" value="MUN5235DW1T1G" x="20" y="20" smashed="yes" rot="R270">
+<element name="Q1" library="_jc" package="SOT363_PHILIPS" value="MUN5235DW1" x="20" y="20" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.4" y="17.85" size="0.8128" layer="25" ratio="16"/>
 <attribute name="VALUE" x="17.3" y="21.1" size="0.8128" layer="27" ratio="16" rot="R270"/>
 </element>
-<element name="Q2" library="_jc" package="SOT363_PHILIPS" value="MUN5235DW1T1G" x="20.07" y="31.08" smashed="yes" rot="R270">
+<element name="Q2" library="_jc" package="SOT363_PHILIPS" value="MUN5235DW1" x="20.07" y="31.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.52" y="32.42" size="0.8128" layer="25" ratio="16"/>
 <attribute name="VALUE" x="17.37" y="32.18" size="0.8128" layer="27" ratio="16" rot="R270"/>
 </element>

@@ -33766,8 +33766,8 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="R5" library="_jc" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="C3" library="_jc" deviceset="C-US" device="M0805" value="100nF"/>
-<part name="Q1" library="_jc" deviceset="MUN52XX" device="SOT363" value="MUN5235DW1T1G"/>
-<part name="Q2" library="_jc" deviceset="MUN52XX" device="SOT363" value="MUN5235DW1T1G"/>
+<part name="Q1" library="_jc" deviceset="MUN52XX" device="SOT363" value="MUN5235DW1"/>
+<part name="Q2" library="_jc" deviceset="MUN52XX" device="SOT363" value="MUN5235DW1"/>
 <part name="D1" library="_jc" deviceset="LED" device="5MM" value="5mm"/>
 <part name="R2" library="_jc" deviceset="R-US_" device="M0805" value="15"/>
 <part name="D2" library="_jc" deviceset="LED" device="5MM" value="5mm"/>
@@ -33857,20 +33857,20 @@ under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/               
 <attribute name="VALUE" x="31.496" y="138.049" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="A" x="170.18" y="142.24" smashed="yes">
-<attribute name="NAME" x="165.1" y="147.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="160.02" y="147.32" size="1.778" layer="96"/>
+<attribute name="NAME" x="175.26" y="139.7" size="1.778" layer="95"/>
+<attribute name="VALUE" x="175.26" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="B" x="195.58" y="142.24" smashed="yes">
-<attribute name="NAME" x="190.5" y="147.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="185.42" y="147.32" size="1.778" layer="96"/>
+<attribute name="NAME" x="200.66" y="139.7" size="1.778" layer="95"/>
+<attribute name="VALUE" x="200.66" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="Q2" gate="A" x="248.92" y="142.24" smashed="yes">
-<attribute name="NAME" x="243.84" y="147.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="238.76" y="147.32" size="1.778" layer="96"/>
+<attribute name="NAME" x="254" y="139.7" size="1.778" layer="95"/>
+<attribute name="VALUE" x="254" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="Q2" gate="B" x="220.98" y="142.24" smashed="yes">
-<attribute name="NAME" x="215.9" y="147.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="210.82" y="147.32" size="1.778" layer="96"/>
+<attribute name="NAME" x="226.06" y="139.7" size="1.778" layer="95"/>
+<attribute name="VALUE" x="226.06" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="172.72" y="167.64" smashed="yes">
 <attribute name="NAME" x="176.276" y="163.068" size="1.778" layer="95" rot="R90"/>
